@@ -15,6 +15,8 @@ substitutions:
   # run_duration: 11s
   # set how long to sleep in minutes
   # sleep_duration: 60min
+  # Set to true when calibrating the sensors
+  calibration_mode: false
 
 esphome:
   name: "${devicename}"
